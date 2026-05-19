@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./auth";
 
 const API = axios.create({
-  baseURL: "https://explain-like-friend-backend.onrender.com/",
+  baseURL: "https://explain-like-friend-backend.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
